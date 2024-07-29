@@ -2,3 +2,4 @@
 * text=auto
 C:/Users/SAMSUNG/Documents/core/core/node_modules/@next/swc-win32-x64-msvc filter=lfs diff=lfs merge=lfs -text
 C:/Users/SAMSUNG/Documents/core/core/node_modules/@next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node filter=lfs diff=lfs merge=lfs -text
+C:/Users/SAMSUNG/Documents/core/core/node_modules/@next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node filter=lfs diff=lfs merge=lfs -text
