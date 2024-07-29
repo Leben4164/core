@@ -1,0 +1,77 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./styles/Form.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+
+@font-face {
+  font-family: 'H';
+  src: url(/_next/static/media/HakgyoansimWoojuR.61430147.ttf) format('truetype');
+  font-style: normal;
+}
+
+.Form_formContainer__kHlFN {
+  font-family: 'H';
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.Form_inputGroup__eyo8m {
+  font-family: 'H';
+  margin-bottom: 15px;
+}
+
+.Form_label__EGnSu {
+  font-family: 'H';
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.Form_input__MqM9j {
+  font-family: 'H';
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.Form_textArea__6QbRc {
+  font-family: 'H';
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: none;
+
+}
+
+.Form_button__sdzPl {
+  font-family: 'H';
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Form_button__sdzPl:hover {
+  font-family: 'H';
+  background-color: #0056b3;
+}
+
+.Form_h__pFLha {
+  font-family: 'H';
+  display: block;
+  text-align: center;
+}
