@@ -1,4 +1,4 @@
-// File: C:\Users\SAMSUNG\Documents\corewebsite2\app\recruit\page.tsx
+// File: C:\Users\SAMSUNG\Documents\core\core\app\recruit\page.tsx
 import * as entry from '../../../../app/recruit/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
