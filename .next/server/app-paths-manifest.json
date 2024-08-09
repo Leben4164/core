@@ -1,5 +1,3 @@
 {
-  "/list/[id]/page": "app/list/[id]/page.js",
-  "/(home)/page": "app/(home)/page.js",
-  "/list/page": "app/list/page.js"
+  "/(home)/page": "app/(home)/page.js"
 }
