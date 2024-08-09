@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react";
+
 import PocketBase from 'pocketbase';
 import NumberInput from "./numberInput";
 import NameInput from "./nameInput";
@@ -9,14 +10,15 @@ import WantInput from "./wantInput";
 import styles from '../styles/Form.module.css';
 
 export default function Form() {
-    const [number, setNumber] = useState("");
+    let [number, setNumber] = useState("");
     const [name, setName] = useState("");
     const [motiv, setMotiv] = useState("");
     const [want, setWant] = useState("");
 
+
     const pb = new PocketBase('http://127.0.0.1:8090'); // PocketBase 서버 URL로 변경하세요
 
-    const handleSubmit = async (e) => {
+    const submit = async (e) => {
         e.preventDefault();
         try {
             const data = {
@@ -27,6 +29,8 @@ export default function Form() {
             await pb.collection('information').create(data); // 'your_collection_name'을 실제 컬렉션 이름으로 변경하세요
             console.log("데이터 저장 성공:", data);
             alert("제출되었습니다.")
+            number = "a"
+            console.log(number)
         } catch (error) {
             console.error("데이터 저장 실패:", error);
         }
@@ -39,7 +43,7 @@ export default function Form() {
         <MotivInput value={motiv} onChange={setMotiv} />
         <WantInput value={want} onChange={setWant} />
         <p></p>
-        <button className={styles.button} onClick={handleSubmit}>제출</button>
+        <button className={styles.button} onClick={submit}>제출</button>
       </div>
     )
 }
