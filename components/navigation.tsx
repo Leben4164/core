@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import styles from '../styles/Form.module.css';
 
 export default function Navigation() {
     const path = usePathname();
     return (
-        <nav>
-            <ul>
+        <nav className={styles.navbar}>
+            <ul className={styles.navMenu}>
                 <li>
                     <Link href="/" >Home</Link> {path === "/" ? "←" : ""}
                 </li>
