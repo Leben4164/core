@@ -29,8 +29,7 @@ export default function Form() {
             await pb.collection('information').create(data); // 'your_collection_name'을 실제 컬렉션 이름으로 변경하세요
             console.log("데이터 저장 성공:", data);
             alert("제출되었습니다.")
-            number = "a"
-            console.log(number)
+            
         } catch (error) {
             console.error("데이터 저장 실패:", error);
         }

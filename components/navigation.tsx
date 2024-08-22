@@ -10,17 +10,17 @@ export default function Navigation() {
         <nav className={styles.navbar}>
             <ul className={styles.navMenu}>
                 <li>
-                    <Link style={{ textDecoration: "none" }} href="/" >
+                    <Link style={{ textDecoration: "none", color: "black" }} href="/" >
                         <p>Home</p>
                     </Link> {path === "/" ? "←" : ""}
                 </li>
                 <li>
-                    <Link style={{ textDecoration: "none" }} href="/recruit">
+                    <Link style={{ textDecoration: "none", color: "black" }} href="/recruit">
                         <p>Recruit</p>
                     </Link> {path === "/recruit" ? "←" : ""}
                 </li>
                 <li>
-                    <Link style={{ textDecoration: "none" }} href="/list">
+                    <Link style={{ textDecoration: "none", color: "black" }} href="/list">
                         <p>List</p>
                     </Link> {path === "/list" ? "←" : ""}
                 </li>
